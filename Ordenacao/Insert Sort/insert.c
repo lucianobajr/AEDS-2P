@@ -1,19 +1,20 @@
 #include "insert.h"
 
-void incersao(insert *croquete){
+void insercao(insert *croquete){
     int i,j;
     int n=croquete->quantidade;
     item x;
     for (i = 2; i <= n; i++) { 
-        x.valor = croquete->itens[i].valor;  
+        x = croquete->itens[i];  
         j = i - 1;
-        croquete->itens[0].valor =x.valor;
+        croquete->itens[0]=x;
         while (x.valor < croquete->itens[j].valor) { 
             croquete->itens[j+1] = croquete->itens[j];  
             j--;
         }
-       croquete->itens[j+1].valor = x.valor;
+       croquete->itens[j+1]= x;
     } 
+    printf("teste");
 }
 
 void insere(arquivo *arq){
@@ -59,8 +60,8 @@ void menu(arquivo *arq, insert *croquete){
                 imprime(arq);
             }
             if (resposta == 2){
-                insert(croquete);
-                imprime_ordenado(&croquete);
+                insercao(croquete);
+                imprime_ordenado(croquete);
             }
         }
         else{
@@ -86,7 +87,7 @@ void imprime_ordenado(insert *croquete){
     }
 }
 
-void inicia_bob(arquivo *arq, insert *croquete){
+void inicia_croc(arquivo *arq, insert *croquete){
     croquete->itens = arq->itens_arquivo;
     croquete->quantidade = arq->quantidade_arquivo;
 }
