@@ -14,12 +14,12 @@ typedef struct{
 typedef struct{
     item *itens;
     int quantidade;
-}bubble;
+}selec;
 
-void bolha(bubble * bob);
+void selecao(selec *alec);
 void insere(arquivo *arq);
 void imprime(arquivo *arq);
-void imprime_ordenado(bubble *bob);
-void menu(arquivo *arq,bubble *bob);
-void inicia_bob(arquivo *arq,bubble *bob);
+void imprime_ordenado(selec *alec);
+void menu(arquivo *arq,selec *alec);
+void inicia_bob(arquivo *arq,selec *alec);
 void print_menu();
