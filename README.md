@@ -39,3 +39,18 @@
 
 ![Insertion-Sort](https://user-images.githubusercontent.com/45442173/68967960-2c812d80-07c0-11ea-9914-5b27cbad5fe6.jpg)
 
+
+<h2><a href="https://github.com/lucianobajr/Algorithm-and-Data-Structures-2P/tree/master/Ordenacao/Quick%20Sort">Quick Sort</a></h2>
+
+![Sorting_quicksort_anim](https://user-images.githubusercontent.com/45442173/78571990-44a02a80-77fd-11ea-858e-2e265ada46a5.gif)
+![1_Wb7sjviC18Hj5yRS6CdqKw](https://user-images.githubusercontent.com/45442173/78572001-4833b180-77fd-11ea-9f90-00671b1ab62c.jpeg)
+
+<h2><a href="https://github.com/lucianobajr/Algorithm-and-Data-Structures-2P/tree/master/Ordenacao/Heap%20Sort%20">Heap Sort</a></h2>
+
+![Sorting_heapsort_anim](https://user-images.githubusercontent.com/45442173/78572172-7e713100-77fd-11ea-8c38-bdec1dfe464f.gif)
+![heapsort1](https://user-images.githubusercontent.com/45442173/78572179-803af480-77fd-11ea-9c00-380661c0af93.png)
+
+<h2><a href="hhttps://github.com/lucianobajr/Algorithm-and-Data-Structures-2P/tree/master/Ordenacao/Shell%20Sort">Shell Sort</a></h2>
+
+![Sorting_shellsort_anim](https://user-images.githubusercontent.com/45442173/78572341-b8423780-77fd-11ea-8af1-4c26a8a0c648.gif)
+![Shell_Sort_Algorithm](https://user-images.githubusercontent.com/45442173/78572356-bbd5be80-77fd-11ea-8e2f-dd2c7c36023d.gif)
